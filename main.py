@@ -67,6 +67,7 @@ def submitAnswer(workId: int, grade: int):
 
 if __name__ == "__main__":
     token = login("17683817304", "whut2017")
+    #test
 
     headers["Authorization"] = token
     courseList: List[int] = getCourses()
